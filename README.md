@@ -7,3 +7,4 @@ Plan to Generate a script to configure Ideal AD Setup.
  - AD Recycle Bin
  - Import GPO for deploying Microsoft LAPS
  - Import GPO for BitLocker on laptops
+ - Configure EFS Recovery Agent
