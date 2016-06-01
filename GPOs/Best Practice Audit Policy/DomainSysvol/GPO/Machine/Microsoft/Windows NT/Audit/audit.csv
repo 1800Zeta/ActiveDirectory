@@ -14,6 +14,7 @@ Machine Name,Policy Target,Subcategory,Subcategory GUID,Inclusion Setting,Exclus
 ,System,Audit Account Lockout,{0cce9217-69ae-11d9-bed3-505054503030},Success,,1
 ,System,Audit Logoff,{0cce9216-69ae-11d9-bed3-505054503030},Success,,1
 ,System,Audit Logon,{0cce9215-69ae-11d9-bed3-505054503030},Success and Failure,,3
+,System,Audit Other Logon/Logoff Events,{0cce921c-69ae-11d9-bed3-505054503030},Success and Failure,,3
 ,System,Audit Special Logon,{0cce921b-69ae-11d9-bed3-505054503030},Success and Failure,,3
 ,System,Audit Audit Policy Change,{0cce922f-69ae-11d9-bed3-505054503030},Success and Failure,,3
 ,System,Audit Authentication Policy Change,{0cce9230-69ae-11d9-bed3-505054503030},Success and Failure,,3
