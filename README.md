@@ -23,7 +23,7 @@ All client should be deployed using the latest Windows 10 deployment and patches
 ​Software to be deployed to clients:
  - Microsoft EMET
  - Microsoft ​LAPS​​
-​ - Microsoft Intune Client​ 
+ - Microsoft Intune Client​ 
 
 Plan to Generate a script to configure Ideal AD Setup. 
 
