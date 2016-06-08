@@ -15,6 +15,7 @@ This high level design doc is fairly generic. A low level design doc will cover 
  - Deploy ADFS​ on a server core ​ 
  - Deploy AD Sync and configure it in full ADFS mode. This relies on an Azure AD being created earlier and domains being validated.
  - Ensure that all servers are setting local admin passwords using LAPS.
+ - Configure a DFS Namespace for hosting file shares. Ensure that Access Based Enumeration is enabled.
 
 ​At this point we have AD deployed for the customer, it's secured using best practice. Security Logs are being exported to Microsoft Operations Management, processed and alerting where necessary.​  We have Intune in place for managing all clients and mobile devices. ​ 
 
