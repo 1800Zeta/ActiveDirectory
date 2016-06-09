@@ -19,7 +19,7 @@ This high level design doc is fairly generic. A low level design doc will cover 
 
 ​At this point we have AD deployed for the customer, it's secured using best practice. Security Logs are being exported to Microsoft Operations Management, processed and alerting where necessary.​  We have Intune in place for managing all clients and mobile devices. ​ 
 
-All client should be deployed using the latest Windows 10 deployment and patches. Selection of the Anti-Virus software is part of the low level design process. All client machines should have a TPM Module, BitLocker Drive Encryption and Secure Boot Enabled. Network Unlock feature can be deployed to save entering a PIN on a secured network (i.e. the office)
+All client should be deployed using the latest Windows 10 Enterprise (key for AppLocker) deployment and patches. Selection of the Anti-Virus software is part of the low level design process. All client machines should have a TPM Module, BitLocker Drive Encryption and Secure Boot Enabled. Network Unlock feature can be deployed to save entering a PIN on a secured network (i.e. the office)
 
 ​Software to be deployed to clients:
  - Microsoft EMET
@@ -37,3 +37,4 @@ Plan to Generate a script to configure Ideal AD Setup.
  - Import GPO for BitLocker on laptops
  - Configure Auditing on the domain
  - Configure EFS Recovery Agent
+ - Import GPO for default AppLocker policy
