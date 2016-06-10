@@ -12,7 +12,8 @@ This high level design doc is fairly generic. A low level design doc will cover 
  - Secure AD and increase alerts as per other github repo
  - Deploy Advanced Group Policy Manager from MDOP.
  - Deploy Microsoft BitLocker Administration and Monitoring from MDOP.
- - Deploy ADFS​ on a server core ​ 
+ - Deploy ADFS​ on a server core ​ & configure Azure Monitoring - https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-health/
+  - Set-ADFSProperties -LogLevel $((Get-ADFSProperties).LogLevel + "SuccessAudits" + "FailureAudits") 
  - Deploy AD Sync and configure it in full ADFS mode. This relies on an Azure AD being created earlier and domains being validated.
  - Ensure that all servers are setting local admin passwords using LAPS.
  - Configure a DFS Namespace for hosting file shares. Ensure that Access Based Enumeration is enabled.
