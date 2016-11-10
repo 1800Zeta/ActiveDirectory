@@ -23,7 +23,6 @@ This high level design doc is fairly generic. A low level design doc will cover 
 All client should be deployed using the latest Windows 10 Enterprise (key for AppLocker) deployment and patches. Selection of the Anti-Virus software is part of the low level design process. All client machines should have a TPM Module, BitLocker Drive Encryption and Secure Boot Enabled. Network Unlock feature can be deployed to save entering a PIN on a secured network (i.e. the office)
 
 ​Software to be deployed to clients:
- - Microsoft EMET
  - Microsoft ​LAPS​​
  - Microsoft Intune Client​ 
 
@@ -34,7 +33,6 @@ Plan to Generate a script to configure Ideal AD Setup.
  - Enable AD Recycle Bin
    Enable-ADOptionalFeature –Identity ‘CN=Recycle Bin Feature,CN=Optional Features,CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,DC=contoso,DC=com’ –Scope ForestOrConfigurationSet –Target ‘contoso.com’
  - Import GPO for deploying Microsoft LAPS
- - Import GPO for deploying EMET
  - Import GPO for BitLocker on laptops
  - Configure Auditing on the domain
  - Configure EFS Recovery Agent
