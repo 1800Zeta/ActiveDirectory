@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Files clsid="{215B2E53-57CE-475c-80FE-9EEC14635851}"><File clsid="{50BE44C8-567A-4ed1-B1D0-9234FE1F38AF}" name="ArchiveSeurityLog.ps1" status="ArchiveSeurityLog.ps1" image="2" changed="2017-06-14 12:36:39" uid="{3E9190FC-7B82-4DC7-9801-3CAC6E0475A0}"><Properties action="U" fromPath="\\azure.zatzy.co.uk\SYSVOL\azure.zatzy.co.uk\scripts\ArchiveSeurityLog.ps1" targetPath="C:\Zatzy\Scripts\ArchiveSeurityLog.ps1" readOnly="0" archive="1" hidden="0" suppress="0"/></File>
+</Files>
